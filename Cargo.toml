@@ -1,5 +1,5 @@
 [package]
-name = "100-days-of-code"
+name = "algorithms-100-days"
 version = "0.1.0"
 authors = ["sathis <sathis62@gmail.com>"]
 edition = "2018"
