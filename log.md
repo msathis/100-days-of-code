@@ -6,3 +6,12 @@
 
 Important to remember the order of moves. There are two moves required to push one disk from A to C. 
 First move the disk from A to B using C as axillary. Then move it from B to C using A as axillary. 
+
+
+### Day 1: May 17, 2019 - Matrix Multiplication
+**Problem:** [Geeksforgeeks](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)\
+**Code:** [Matrix Multiplication](src/day2/mod.rs)
+
+We have to try all the possible combinations of putting parentheses 
+and pick the one which is yielding minimal multiplications. Start with recursive one 
+then build the dynamic programming approach from it.
