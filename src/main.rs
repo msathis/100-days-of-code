@@ -4,5 +4,6 @@ pub mod day2;
 fn main() {
     println!("Hello, world!");
 
-    day1::hanoi(3);
+    let mm = day2::MatrixMultiplication::new(vec![1, 2, 3, 4, 3]);
+    println!("{}", mm.get_multiplications_dp());
 }

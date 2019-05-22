@@ -40,7 +40,7 @@ impl MatrixMultiplication {
 
         //Selecting same matrix twice is cost 0;
         for i in 1..self.size.len() {
-            let mut row = dp.get_mut(i).unwrap();
+            let mut row = dp.get_mut(i);
             row.insert(i, 0);
         }
 
